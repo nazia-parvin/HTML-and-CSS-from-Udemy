@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - Datalist</h1>
 
+    <!-- General List Select -->
+     <!-- datalist is connected to the input element using id, same as list -->
+     <label for="favLanguages">My Favurite Languages</label>
+     <input list="languages" id="favLanguages">
+     <datalist id="languages">
+      <option value="JAVA"></option>
+      <option value="Python"></option>
+      <option value="JavaScript"></option>
+      <option value="CSS"></option>
+      <option value="Ruby"></option>
+     </datalist>
+     <br/>
+     <!-- Time -->
+      <input type="time" list="popularTime">
+      <datalist id="popularTime">
+        <option value="10:00"></option>
+        <option value="12:00"></option>
+        <option value="02:00"></option>
+        <option value="04:00"></option>
+        <option value="06:00"></option>
+      </datalist>
+      <br/>
+      <!-- range -->
+       <label for="tick">Tip Amount</label>
+       <input type="range" id="tick" name="tick" list="tickmarks" min="0" max="100">
+       <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+       </datalist>
+       <br/>
+       <!-- Colours -->
+        <label for="colors">Colours</label>
+        <input type="color" name="colors" id="colors" list="redcolours">
+        <datalist id="redcolours">
+          <option value="#800000"></option>
+          <option value="#8B0000"></option>
+        </datalist>
+  </body>
+</html>
