@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.box {
+  background: coral;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  border: 6px solid blueviolet;
+  /* border-width: 6px ;
+  border-color: blueviolet;
+  border-style: dotted; */
+}
+
+.box-1{
+  border:none;
+  border-top: 3px solid black;
+  border-bottom: 4px dashed firebrick
+}
+.box-2{
+  /* border-radius: 100px; */
+  border-radius: 50%;
+}
+.box-3{
+  border-top-left-radius: 10px;
+}
