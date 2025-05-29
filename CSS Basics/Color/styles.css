@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: blue; */
+  /* background: rgb(0,255,0); */
+  background-color: #ffffff;
+}
+/* .sporty{
+  color: coral;
+} */
+/* .casual{
+  color: #ffffff;
+} */
+
+/* RGBA */
+.card{
+  background-color: rgba(5,3,10,0.5);
+}
