@@ -1,0 +1,45 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px saddlebrown;
+}
+
+
+/* Type Selectore
+h1{
+    color: aquamarine;
+    font-size: 30px;
+}
+p{
+    color: aquamarine;
+}
+a{
+    text-decoration: none;
+} */
+/* class selectors
+.casual{
+    color:blanchedalmond
+}
+.sporty{
+    color: yellowgreen;
+}
+.formal{
+    color: wheat;
+} */
+ /* ID */
+ #container{
+    color: blueviolet;
+    max-width: 600px;
+    margin: 100px;
+    padding: 20px;
+ }
+ /* multiple selector */
+ .sporty,.casual{
+    font-size: 35px;
+ }
+ /* descendent container */
+ #container p{
+    background-color: beige;
+ }
+ p{
+    background-color: red;
+ }
