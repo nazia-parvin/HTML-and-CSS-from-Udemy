@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.flex-container{
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.flex-item{
+  background-color: coral;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
