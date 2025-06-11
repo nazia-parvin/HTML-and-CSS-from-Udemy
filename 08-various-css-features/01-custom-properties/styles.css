@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* we are using root so that it can be accesible from anywhere */
+:root{
+  --primary-colour: lightblue;
+  --secondary-colour: coral;
+  --tartiary-colour: lightgreen ;
+  --shadow-opacity:0.5;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: lightblue;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, var(--shadow-opacity));
+}
+.box1{
+  background-color: var(--primary-colour);
+}
+.box2{
+  background-color: var(--secondary-colour);
+}
+.box3{
+  background-color: var(--tartiary-colour);
+}

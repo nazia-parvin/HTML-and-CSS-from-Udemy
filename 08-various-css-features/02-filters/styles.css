@@ -1,0 +1,24 @@
+
+.container{
+  width: 900px;
+  margin: 70px auto;
+}
+.img{
+  width: 100%;
+  /* -webkit-filter: blur(5px); */
+  /* -moz-filter: blur(5px); */
+  /* filter: grayscale(100%); */
+  /* filter:blur(2px); */
+  /* filter: brightness(200%); */
+  /* filter: contrast(300%); */
+  /* filter: drop-shadow(10px 10px 5px green); */
+  /* filter: hue-rotate(90deg); */
+  /* filter: opacity(30%); */
+  /* filter: invert(100%); */
+  /* filter: saturate(200%); */
+  filter:sepia(100%);
+  /* filter: grayscale(100%) blur(3px); */
+}
+
+
+

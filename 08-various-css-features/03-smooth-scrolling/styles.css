@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* :root{
+  --background-colors: (45deg, red, blue)
+} */
+html,body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+p{
+  margin-bottom: 20px;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+}
+
+.main{
+  max-width:700px;
+  margin: 0 auto;
+}
+.header{
+  background: linear-gradient(45deg, red, blue);
+  color: blue;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+.header .menu a{
+  color: white;
+}
+.header .menu a:hover{
+  color: #f00;
+}
+
+.header .menu ul{
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+}
+/* section */
+.section h2{
+    text-align: center;
+    margin: 30px 0px;
+    background: linear-gradient(45deg, red, blue);
+    color: white;
+    font-size: 40px;
+}
+.section#welcome{
+  margin-bottom: 100px;
+}
