@@ -1,0 +1,52 @@
+* ,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #f4f4f4;
+  padding: 10px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: relative;
+}
+h2::before{
+  content: 'Hello';
+  margin-right: 2px;
+  color: red;
+}
+label.is-required::after{
+  content: '*';
+  margin-left: 10px;
+  color: blue;
+  font-weight: bold;
+}
+h2::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 200px;
+  background-color: blanchedalmond;
+}

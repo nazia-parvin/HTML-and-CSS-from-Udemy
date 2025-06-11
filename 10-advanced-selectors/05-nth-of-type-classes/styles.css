@@ -1,0 +1,41 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/*  Style the first li of it's parent */
+ul li:first-of-type{
+  background-color: aqua;
+}
+/*  Style the last li of it's parent */
+ul li:last-of-type{
+  background-color: aqua;
+}
+/*  Style the 3rd item */
+ul li:nth-of-type(3){
+  background-color: aqua;
+}
+/*  Style the 6th item */
+ul li:nth-of-type(6){
+  background-color: aqua;
+}
+/*  Style the even items */
+ul li:nth-of-type(odd){
+  background-color: grey;
+}
+/*  Style the odd items */
+ul li:nth-of-type(even){
+  background-color: cadetblue;
+}
+/* nth-of-type vs nth-child */
+p:nth-of-type(1){
+  color: gold;
+}
+p:nth-child(2){
+  color: blue;
+}
+/* Using pseudo classes with pseudo elements */
+.container >  p:first-of-type::first-letter{
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}

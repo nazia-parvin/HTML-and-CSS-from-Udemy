@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+}
+
+p::first-letter{
+  font-size: 2rem;
+  color: blueviolet;
+  padding-right: 2px;
+  font-weight: bold;
+}
+p::first-line{
+  color: blueviolet;
+}
+p::selection{
+  color: red;
+  background-color: yellowgreen;
+
+}
+input:required{
+  border-color: red;
+}
+input::placeholder{
+  font-weight: bold;
+  color: aquamarine;
+}
+input::file-selector-button{
+  padding: 0.5rem;
+  color: coral;
+  border: thin solid gray;
+  border-radius: 3px;
+}
+li::marker{
+  content: '🗻';
+}

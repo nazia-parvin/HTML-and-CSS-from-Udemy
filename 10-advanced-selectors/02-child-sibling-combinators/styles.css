@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 2;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 2rem;
+}
+
+/* 
+> Child Combinator
++ General Sibling Combinator
+~ Adjacent Sibling Combinator
+*/
+
+/* Get only paragraphs that are direct children of container */
+.container > p{
+  color: blueviolet;
+  font-weight: bold;
+}
+/* Get only unordered lists that are direct children of container */
+.container > ul{
+  list-style: none;
+}
+/* Get only links that are direct children of container */
+.container >a{
+  color: brown;
+}
+/* Get the immidiate sibling link after h1 */
+.container h1 + p{
+  background-color: aquamarine;
+}
+/* Get all links that are siblings that come after h1 */
+.container h1 ~ a{
+  background-color: aquamarine;
+}
+.container >ul ~div{
+  background-color: blanchedalmond;
+}
